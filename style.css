@@ -32,7 +32,7 @@ nav {
   padding-top: 46px;
   padding-bottom: 45px;
 }
-ul {
+nav ul {
   display: flex;
   justify-content: space-between;
   font-family: 'Open Sans';
@@ -88,4 +88,100 @@ ul {
   vertical-align: middle;
   margin-left: 5px;
   margin-bottom: 3px;
+}
+.popular-tours {
+  padding-top: 50px;
+}
+.popular-tours .line::after {
+  content: '';
+  display: block;
+  height: 1px;
+  background: #E8E6E6;
+}
+.popular-tours section {
+  display: flex;
+  width: 89%;
+  margin: auto;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+.popular-tours section:first-of-type {
+  padding: 0;
+}
+.popular-tours .about-of-tour {
+  width: 57%;
+}
+.popular-tours .about-of-tour p {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 21px;
+  color: #414141;
+  letter-spacing: 0.03em;
+  padding: 15px 0 30px 0;
+}
+.popular-tours .about-of-tour ul {
+  display: flex;
+  width: 65%;
+  justify-content: space-between;
+}
+.popular-tours .about-of-tour ul p {
+  padding: 0;
+  margin: 5px 0 0 10px;
+}
+.popular-tours .about-of-tour ul li {
+  display: flex;
+}
+.popular-tours .btns {
+  width: 14%;
+}
+.popular-tours .btns .read-more-btn {
+  width: 100%;
+  border: 1px solid #7A7363;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #7A7363;
+  text-transform: uppercase;
+  height: 45px;
+  margin: 31px 0 28px 0;
+}
+.popular-tours .btns .book-now-btn {
+  width: 100%;
+  background-color: #7A7363;
+  border: none;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  height: 45px;
+  margin-bottom: 60px;
+}
+.h2 {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 38px;
+  line-height: 52px;
+  color: #414141;
+  padding-bottom: 50px;
+  text-align: center;
+}
+h3 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 29px;
+  color: #414141;
+  letter-spacing: 0.05em;
 }
