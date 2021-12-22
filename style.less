@@ -49,3 +49,28 @@ ul {
     padding-top: 48px;
     padding-bottom: 46px;
 }
+.head-block {
+    background-image: url('assets/images/buggy.jpg');
+    background-size: cover;
+    text-align: center;
+    & h1 {
+        .font('Open Sans', normal, 800, 70px, 95px, @white);
+        letter-spacing: 0.06em;
+        padding: 213px 0 35px 0;
+    }
+    & button {
+        width: 14%;
+        border: none;
+        background-color: @white;
+        .font('Roboto', normal, 500, 18px, 21px, @book-btn);
+        text-transform: uppercase;
+        letter-spacing: 0.03em;
+        height: 45px;
+        margin-bottom: 272px;
+    }
+    & img {
+        vertical-align: middle;
+        margin-left: 5px;
+        margin-bottom: 3px;
+    }
+}

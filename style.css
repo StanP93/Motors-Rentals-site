@@ -54,3 +54,38 @@ ul {
   padding-top: 48px;
   padding-bottom: 46px;
 }
+.head-block {
+  background-image: url('assets/images/buggy.jpg');
+  background-size: cover;
+  text-align: center;
+}
+.head-block h1 {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 70px;
+  line-height: 95px;
+  color: #ffffff;
+  letter-spacing: 0.06em;
+  padding: 213px 0 35px 0;
+}
+.head-block button {
+  width: 14%;
+  border: none;
+  background-color: #ffffff;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #7A7363;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  height: 45px;
+  margin-bottom: 272px;
+}
+.head-block img {
+  vertical-align: middle;
+  margin-left: 5px;
+  margin-bottom: 3px;
+}
