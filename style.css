@@ -185,3 +185,15 @@ h3 {
   color: #414141;
   letter-spacing: 0.05em;
 }
+.see-all {
+  background-color: #E8E6E6;
+}
+.see-all h2 {
+  padding: 0;
+  color: #7A7363;
+  text-transform: uppercase;
+  padding: 15px 0;
+}
+.see-all h2 img {
+  margin-left: 10px;
+}
