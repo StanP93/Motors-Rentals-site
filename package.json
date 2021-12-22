@@ -1,0 +1,11 @@
+{
+  "name": "motors-rentals",
+  "version": "1.0.0",
+  "description": "motors-rentals-layout",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Stanislau Pranovich",
+  "license": "ISC"
+}
