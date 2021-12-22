@@ -1,0 +1,56 @@
+header {
+  display: flex;
+  flex-direction: row;
+  width: 89%;
+  margin: auto;
+  justify-content: space-between;
+  background-color: #ffffff;
+}
+.title {
+  width: 10%;
+  padding-top: 32px;
+  padding-bottom: 34px;
+}
+.title p:first-of-type {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 26px;
+  color: #414141;
+}
+.title p {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #7A7363;
+}
+nav {
+  width: 45%;
+  padding-top: 46px;
+  padding-bottom: 45px;
+}
+ul {
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: #414141;
+  text-transform: uppercase;
+}
+.phone-number {
+  width: 8%;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  color: #414141;
+  padding-top: 48px;
+  padding-bottom: 46px;
+}

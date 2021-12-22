@@ -1,0 +1,51 @@
+@white: #ffffff;
+@book-btn: #7A7363;
+@footer-bcg: #D2CCBE;
+@non-active-btn: #E8E6E6;
+@main-text: #414141;
+
+.font(@font-family, @font-style, @font-weight, @font-size, @line-height, @color) {
+    font-family: @font-family;
+    font-style: @font-style;
+    font-weight: @font-weight;
+    font-size: @font-size;
+    line-height: @line-height;
+    color: @color;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    width: 89%;
+    margin: auto;
+    justify-content: space-between;
+    background-color: @white;
+}
+.title {
+    width: 10%;
+    padding-top: 32px;
+    padding-bottom: 34px;
+    & p:first-of-type {
+        .font('Montserrat', normal, 700, 21px, 26px, @main-text);
+    }
+    & p {
+        .font('Montserrat', normal, 500, 16px, 20px, @book-btn);
+    }
+}
+nav {
+    width: 45%;
+    padding-top: 46px;
+    padding-bottom: 45px;
+}
+ul {
+    display: flex;
+    justify-content: space-between;
+    .font('Open Sans', normal, normal, 14px, 19px, @main-text);
+    text-transform: uppercase;
+}
+.phone-number {
+    width: 8%;
+    .font('Roboto', normal, bold, 14px, 16px, @main-text);
+    padding-top: 48px;
+    padding-bottom: 46px;
+}
