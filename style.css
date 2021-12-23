@@ -283,10 +283,17 @@ h3 {
 .reviews .swiper-slide div {
   padding-left: 20px;
 }
-.back {
-  background-image: url(assets/images/buggy-opacity.jpg);
+.pre-footer {
+  display: flex;
 }
-.back p:first-of-type {
+.pre-footer .back {
+  background-image: url(assets/images/buggy-opacity.jpg);
+  width: 29%;
+}
+.pre-footer .back div {
+  padding: 40px 0 0 80px;
+}
+.pre-footer .back p:first-of-type {
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 600;
@@ -294,4 +301,53 @@ h3 {
   line-height: 25px;
   color: #ffffff;
   letter-spacing: 0.06em;
+  padding-bottom: 15px;
+}
+.pre-footer .back .small-text {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: #ffffff;
+}
+.pre-footer .back .phone-pre-footer {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 29px;
+  color: #ffffff;
+  letter-spacing: 0.05em;
+}
+.pre-footer .back .first {
+  padding-top: 25px;
+}
+.pre-footer .back .second {
+  padding-bottom: 25px;
+}
+.pre-footer .back i {
+  padding: 53px 0 39px 0;
+  color: #ffffff;
+}
+.pre-footer .back i:first-of-type {
+  margin-right: 20px;
+}
+footer {
+  background-color: #D2CCBE;
+}
+footer .footer-wrap {
+  display: flex;
+  flex-direction: row;
+  width: 89%;
+  margin: auto;
+  justify-content: space-between;
+}
+footer .footer-wrap li {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  color: #414141;
 }

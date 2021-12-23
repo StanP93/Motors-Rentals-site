@@ -226,12 +226,50 @@ h3 {
     }
 }
 .pre-footer {
-    
+    display: flex;
+    & .back {
+        background-image: url(assets/images/buggy-opacity.jpg);
+        width: 29%;
+        & div {
+            padding: 40px 0 0 80px;
+        }
+        & p:first-of-type {
+            .font('Open Sans', normal, 600, 18px, 25px, @white);
+            letter-spacing: 0.06em;
+            padding-bottom: 15px;
+        }
+        & .small-text {
+            .font('Open Sans', normal, normal, 14px, 19px, @white);
+        }
+        & .phone-pre-footer {
+            .font('Roboto', normal, 500, 25px, 29px, @white);
+            letter-spacing: 0.05em;
+        }
+        & .first {
+            padding-top: 25px;
+        }
+        & .second {
+            padding-bottom: 25px;
+        }
+        & i {
+            padding: 53px 0 39px 0;
+            color: @white;
+            &:first-of-type {
+                margin-right: 20px;
+            }
+        }
+    }
 }
-.back {
-    background-image: url(assets/images/buggy-opacity.jpg);
-    & p:first-of-type {
-        .font('Open Sans', normal, 600, 18px, 25px, @white);
-        letter-spacing: 0.06em;
+footer {
+    background-color: @footer-bcg;
+    & .footer-wrap {
+        display: flex;
+        flex-direction: row;
+        width: 89%;
+        margin: auto;
+        justify-content: space-between;
+        & li {
+            .font('Open Sans', normal, normal, 12px, 16px, @main-text);
+        }
     }
 }
