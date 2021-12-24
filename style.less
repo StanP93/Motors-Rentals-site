@@ -16,10 +16,17 @@
 header {
     display: flex;
     flex-direction: row;
-    width: 89%;
     margin: auto;
     justify-content: space-between;
     background-color: @white;
+    box-shadow: 0px 4px 5px rgba(122, 115, 99, 0.05);
+    & .header-wrap {
+        width: 89%;
+        display: flex;
+        flex-direction: row;
+        margin: auto;
+        justify-content: space-between;
+    }
 }
 .title {
     width: 10%;
@@ -42,6 +49,10 @@ nav ul {
     justify-content: space-between;
     .font('Open Sans', normal, normal, 14px, 19px, @main-text);
     text-transform: uppercase;
+    & a {
+        color: @main-text;
+        text-decoration: none;
+    }
 }
 .phone-number {
     width: 8%;
@@ -81,13 +92,13 @@ nav ul {
         display: block;
         height: 1px;
         background: @non-active-btn;
+        margin-bottom: 20px;
     }
     & section {
         display: flex;
-        width: 89%;
+        width: 79%;
         margin: auto;
         justify-content: space-between;
-        padding-top: 20px;
     }
     & section:first-of-type {
         padding: 0;
@@ -152,8 +163,18 @@ h3 {
         color: @book-btn;
         text-transform: uppercase;
         padding: 15px 0;
-        & img {
-            margin-left: 10px;
+        & a {
+            text-decoration: none;
+            color: @book-btn;
+    }
+    }
+    &:hover {
+        background-color: #D2CCBE;
+        & h2 {
+            color: @white;
+            & a {
+                color: @white;
+            }
         }
     }
 }
@@ -167,7 +188,7 @@ h3 {
         padding: 80px 0 0 0;
     }
     & .swiper {
-        padding-bottom: 86px;
+        padding-bottom: 36px;
         padding-top: 38px;
     }
     & .swiper-button-prev {
@@ -227,6 +248,7 @@ h3 {
 }
 .pre-footer {
     display: flex;
+    padding-top: 50px;
     & .back {
         background-image: url(assets/images/buggy-opacity.jpg);
         width: 29%;
@@ -272,4 +294,41 @@ footer {
             .font('Open Sans', normal, normal, 12px, 16px, @main-text);
         }
     }
+}
+// excursions site
+.tabs{
+    display: flex;
+    & li {
+        width: 50%;
+        text-align: center;
+        padding: 15px 0;
+        background-color: @non-active-btn;
+        & a {
+            .font('Open Sans', normal, bold, 38px, 52px, @book-btn);
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            text-decoration: none;
+        }   
+        &:hover {
+            background-color: #D2CCBE;
+            & a {
+                color: @white;
+                cursor: pointer;
+            }
+        }
+    }
+    & .active {
+        background-color: @white;
+        z-index: -1;
+        & a {
+            color: @main-text;
+        } 
+    }
+}
+.tabs-panel {
+    display: none;
+}
+   
+.tabs-panel.active {
+    display: block;
 }

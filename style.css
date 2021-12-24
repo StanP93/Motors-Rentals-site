@@ -1,10 +1,17 @@
 header {
   display: flex;
   flex-direction: row;
-  width: 89%;
   margin: auto;
   justify-content: space-between;
   background-color: #ffffff;
+  box-shadow: 0px 4px 5px rgba(122, 115, 99, 0.05);
+}
+header .header-wrap {
+  width: 89%;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  justify-content: space-between;
 }
 .title {
   width: 10%;
@@ -42,6 +49,10 @@ nav ul {
   line-height: 19px;
   color: #414141;
   text-transform: uppercase;
+}
+nav ul a {
+  color: #414141;
+  text-decoration: none;
 }
 .phone-number {
   width: 8%;
@@ -97,13 +108,13 @@ nav ul {
   display: block;
   height: 1px;
   background: #E8E6E6;
+  margin-bottom: 20px;
 }
 .popular-tours section {
   display: flex;
-  width: 89%;
+  width: 79%;
   margin: auto;
   justify-content: space-between;
-  padding-top: 20px;
 }
 .popular-tours section:first-of-type {
   padding: 0;
@@ -194,8 +205,18 @@ h3 {
   text-transform: uppercase;
   padding: 15px 0;
 }
-.see-all h2 img {
-  margin-left: 10px;
+.see-all h2 a {
+  text-decoration: none;
+  color: #7A7363;
+}
+.see-all:hover {
+  background-color: #D2CCBE;
+}
+.see-all:hover h2 {
+  color: #ffffff;
+}
+.see-all:hover h2 a {
+  color: #ffffff;
 }
 .reviews h2 {
   font-family: 'Roboto';
@@ -211,7 +232,7 @@ h3 {
   padding: 80px 0 0 0;
 }
 .reviews .swiper {
-  padding-bottom: 86px;
+  padding-bottom: 36px;
   padding-top: 38px;
 }
 .reviews .swiper-button-prev {
@@ -285,6 +306,7 @@ h3 {
 }
 .pre-footer {
   display: flex;
+  padding-top: 50px;
 }
 .pre-footer .back {
   background-image: url(assets/images/buggy-opacity.jpg);
@@ -350,4 +372,44 @@ footer .footer-wrap li {
   font-size: 12px;
   line-height: 16px;
   color: #414141;
+}
+.tabs {
+  display: flex;
+}
+.tabs li {
+  width: 50%;
+  text-align: center;
+  padding: 15px 0;
+  background-color: #E8E6E6;
+}
+.tabs li a {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 38px;
+  line-height: 52px;
+  color: #7A7363;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.tabs li:hover {
+  background-color: #D2CCBE;
+}
+.tabs li:hover a {
+  color: #ffffff;
+  cursor: pointer;
+}
+.tabs .active {
+  background-color: #ffffff;
+  z-index: -1;
+}
+.tabs .active a {
+  color: #414141;
+}
+.tabs-panel {
+  display: none;
+}
+.tabs-panel.active {
+  display: block;
 }
