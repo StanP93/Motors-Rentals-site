@@ -451,51 +451,105 @@ footer {
             }
         }
     }
-    & .car-book-wrap {
-        width: 29%;
-        & .car-book {
-            margin: 79px 0 30px 0;
-            background: @non-active-btn;
-            opacity: 0.5;
-            border: 1px solid @non-active-btn;
-            box-sizing: border-box;
-        }
-        & h3 {
-            width: 86%;
-            margin: 20px 26px 32px 20px
-        }
-        & ul {
+}
+.car-book-wrap {
+    width: 29%;
+    & .car-book {
+        margin: 79px 0 30px 0;
+        background: @non-active-btn;
+        opacity: 0.5;
+        border: 1px solid @non-active-btn;
+        box-sizing: border-box;
+    }
+    & h3 {
+        width: 86%;
+        margin: 20px 26px 32px 20px
+    }
+    & ul {
+        display: flex;
+        justify-content: space-between;
+        margin: 32px 0 21px 0;
+        .font('Open Sans', normal, normal, 16px, 21px, @main-text);
+        letter-spacing: 0.03em;
+        padding-left: 20px;
+        & li {
             display: flex;
-            justify-content: space-between;
-            margin: 32px 0 21px 0;
-            .font('Open Sans', normal, normal, 16px, 21px, @main-text);
-            letter-spacing: 0.03em;
-            padding-left: 20px;
-            & li {
-                display: flex;
-                margin: auto 0;
-                & p {
-                    margin: auto;
-                }
-                & i {
-                    padding-right: 10px;
-                }
-                & i:last-child {
-                    padding-right: 0px;
-                }
+            margin: auto 0;
+            & p {
+                margin: auto;
+            }
+            & i {
+                padding-right: 10px;
+            }
+            & i:last-child {
+                padding-right: 0px;
             }
         }
-        & button {
-            width: 47%;
-            border: 1px solid @book-btn;
-            box-sizing: border-box;
-            background: @white;
-            .font('Roboto', normal, 500, 18px, 21px, @book-btn);
-            letter-spacing: 0.03em;
-            text-align: center;
-            text-transform: uppercase;
-            padding: 12px 0;
-            margin-top: 42px;
+    }
+    & button {
+        width: 47%;
+        border: 1px solid @book-btn;
+        box-sizing: border-box;
+        background: @white;
+        .font('Roboto', normal, 500, 18px, 21px, @book-btn);
+        letter-spacing: 0.03em;
+        text-align: center;
+        text-transform: uppercase;
+        padding: 12px 0;
+        margin-top: 42px;
+        & a {
+            color: @book-btn;
+            text-decoration: none;
+        }
+        &:hover {
+            background: @footer-bcg;
+            cursor: pointer;
+        }
+    }
+}
+.book-site-2 {
+    display: flex;
+    width: 79%;
+    margin: auto;
+    justify-content: space-between;
+    & .inputs-list {
+        width: 67%;
+        & #add-info {
+                display: flex;
+                justify-content: space-between;
+                padding-bottom: 20px;
+                & p {
+                    margin: auto 0;
+                    .font('Open Sans', normal, normal, 16px, 21px, @main-text);
+                    opacity: 0.5;
+                    letter-spacing: 0.03em;
+                }
+        }
+        & .inputs-and-labels {
+            width: 85%;
+            & .privacy-data {
+                & label {
+                    .font('Open Sans', normal, 600, 18px, 25px, @main-text);
+                    letter-spacing: 0.06em;
+                }
+                & input {
+                    width: 100%;
+                    margin: 12px 0 20px 0;
+                    .font('Open Sans', normal, normal, 16px, 21px, @main-text);
+                    opacity: 0.5;
+                    border: 1px solid @book-btn;
+                    box-sizing: border-box;
+                }
+            }
+            & .checkboxes {
+                width: 48%;
+                .font('Open Sans', normal, normal, 14px, 19px, @main-text);
+                & input {
+                    opacity: 0.5;
+                    border: 1px solid @book-btn;
+                    box-sizing: border-box;
+                }
+            }
         }
     }
 }

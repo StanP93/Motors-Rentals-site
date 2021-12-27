@@ -567,21 +567,21 @@ footer .footer-wrap li {
   background: #D2CCBE;
   cursor: pointer;
 }
-.book-site .car-book-wrap {
+.car-book-wrap {
   width: 29%;
 }
-.book-site .car-book-wrap .car-book {
+.car-book-wrap .car-book {
   margin: 79px 0 30px 0;
   background: #E8E6E6;
   opacity: 0.5;
   border: 1px solid #E8E6E6;
   box-sizing: border-box;
 }
-.book-site .car-book-wrap h3 {
+.car-book-wrap h3 {
   width: 86%;
   margin: 20px 26px 32px 20px;
 }
-.book-site .car-book-wrap ul {
+.car-book-wrap ul {
   display: flex;
   justify-content: space-between;
   margin: 32px 0 21px 0;
@@ -594,20 +594,20 @@ footer .footer-wrap li {
   letter-spacing: 0.03em;
   padding-left: 20px;
 }
-.book-site .car-book-wrap ul li {
+.car-book-wrap ul li {
   display: flex;
   margin: auto 0;
 }
-.book-site .car-book-wrap ul li p {
+.car-book-wrap ul li p {
   margin: auto;
 }
-.book-site .car-book-wrap ul li i {
+.car-book-wrap ul li i {
   padding-right: 10px;
 }
-.book-site .car-book-wrap ul li i:last-child {
+.car-book-wrap ul li i:last-child {
   padding-right: 0px;
 }
-.book-site .car-book-wrap button {
+.car-book-wrap button {
   width: 47%;
   border: 1px solid #7A7363;
   box-sizing: border-box;
@@ -623,4 +623,76 @@ footer .footer-wrap li {
   text-transform: uppercase;
   padding: 12px 0;
   margin-top: 42px;
+}
+.car-book-wrap button a {
+  color: #7A7363;
+  text-decoration: none;
+}
+.car-book-wrap button:hover {
+  background: #D2CCBE;
+  cursor: pointer;
+}
+.book-site-2 {
+  display: flex;
+  width: 79%;
+  margin: auto;
+  justify-content: space-between;
+}
+.book-site-2 .inputs-list {
+  width: 67%;
+}
+.book-site-2 .inputs-list #add-info {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+.book-site-2 .inputs-list #add-info p {
+  margin: auto 0;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 21px;
+  color: #414141;
+  opacity: 0.5;
+  letter-spacing: 0.03em;
+}
+.book-site-2 .inputs-list .inputs-and-labels {
+  width: 85%;
+}
+.book-site-2 .inputs-list .inputs-and-labels .privacy-data label {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  color: #414141;
+  letter-spacing: 0.06em;
+}
+.book-site-2 .inputs-list .inputs-and-labels .privacy-data input {
+  width: 100%;
+  margin: 12px 0 20px 0;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 21px;
+  color: #414141;
+  opacity: 0.5;
+  border: 1px solid #7A7363;
+  box-sizing: border-box;
+}
+.book-site-2 .inputs-list .inputs-and-labels .checkboxes {
+  width: 48%;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: #414141;
+}
+.book-site-2 .inputs-list .inputs-and-labels .checkboxes input {
+  opacity: 0.5;
+  border: 1px solid #7A7363;
+  box-sizing: border-box;
 }
