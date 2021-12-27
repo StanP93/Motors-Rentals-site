@@ -84,6 +84,11 @@ nav ul a {
   width: 14%;
   border: none;
   background-color: #ffffff;
+  height: 45px;
+  margin-bottom: 272px;
+}
+.head-block button a {
+  text-decoration: none;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
@@ -92,8 +97,12 @@ nav ul a {
   color: #7A7363;
   text-transform: uppercase;
   letter-spacing: 0.03em;
-  height: 45px;
-  margin-bottom: 272px;
+}
+.head-block button:hover {
+  background-color: #7A7363;
+}
+.head-block button:hover a {
+  color: #ffffff;
 }
 .head-block img {
   vertical-align: middle;
@@ -166,6 +175,10 @@ nav ul a {
   width: 100%;
   background-color: #7A7363;
   border: none;
+  height: 45px;
+  margin-bottom: 60px;
+}
+.popular-tours .btns .book-now-btn a {
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
@@ -174,8 +187,14 @@ nav ul a {
   color: #ffffff;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  height: 45px;
-  margin-bottom: 60px;
+  text-decoration: none;
+}
+.popular-tours .btns .book-now-btn:hover {
+  background-color: #ffffff;
+  border: 1px solid #7A7363;
+}
+.popular-tours .btns .book-now-btn:hover a {
+  color: #7A7363;
 }
 .h2 {
   font-family: 'Open Sans';
@@ -412,4 +431,196 @@ footer .footer-wrap li {
 }
 .tabs-panel.active {
   display: block;
+}
+.btn-back {
+  width: 89%;
+  margin: 25px auto 50px auto;
+}
+.btn-back a {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 21px;
+  color: #414141;
+  letter-spacing: 0.03;
+  opacity: 0.5;
+  text-decoration: none;
+}
+.book-site {
+  display: flex;
+  width: 79%;
+  margin: auto;
+  justify-content: space-between;
+}
+.book-site .calendar {
+  width: 67%;
+}
+.book-site .calendar .select-date {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 50px;
+}
+.book-site .calendar .select-date p {
+  margin: auto 0;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 21px;
+  color: #414141;
+  opacity: 0.5;
+  letter-spacing: 0.03em;
+}
+.book-site .calendar section {
+  display: flex;
+  justify-content: space-between;
+}
+.book-site .calendar section input {
+  width: 28%;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 21px;
+  color: #414141;
+}
+.book-site .calendar section #btns {
+  width: 9%;
+}
+.book-site .calendar section #btns button {
+  height: 43px;
+  background: #E8E6E6;
+  border: none;
+  color: #3A3A3A;
+  padding: 10px;
+}
+.book-site .calendar section #btns button:hover {
+  background: #D2CCBE;
+  cursor: pointer;
+}
+.book-site .calendar section p {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 21px;
+  color: #7A7363;
+  letter-spacing: 0.03;
+  margin: auto 0;
+}
+.book-site .calendar ul {
+  display: flex;
+  justify-content: space-between;
+}
+.book-site .calendar ul li {
+  width: 11%;
+  text-align: center;
+}
+.book-site .calendar ul li h2 {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 38px;
+  line-height: 52px;
+  color: #7A7363;
+  letter-spacing: 0.05em;
+}
+.book-site .calendar ul li p {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  color: #414141;
+  letter-spacing: 0.06em;
+  opacity: 0.5;
+}
+.book-site .calendar .dates {
+  padding: 40px 0 15px 0;
+}
+.book-site .calendar .line::after {
+  content: '';
+  display: block;
+  height: 1px;
+  background: #E8E6E6;
+}
+.book-site .calendar .clock-btns {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.book-site .calendar .clock-btns button {
+  height: 34px;
+  margin-bottom: 20px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 21px;
+  color: #414141;
+  letter-spacing: 0.03em;
+  border: 1px solid #D2CCBE;
+  box-sizing: border-box;
+  background: #ffffff;
+}
+.book-site .calendar .clock-btns button:hover {
+  background: #D2CCBE;
+  cursor: pointer;
+}
+.book-site .car-book-wrap {
+  width: 29%;
+}
+.book-site .car-book-wrap .car-book {
+  margin: 79px 0 30px 0;
+  background: #E8E6E6;
+  opacity: 0.5;
+  border: 1px solid #E8E6E6;
+  box-sizing: border-box;
+}
+.book-site .car-book-wrap h3 {
+  width: 86%;
+  margin: 20px 26px 32px 20px;
+}
+.book-site .car-book-wrap ul {
+  display: flex;
+  justify-content: space-between;
+  margin: 32px 0 21px 0;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 21px;
+  color: #414141;
+  letter-spacing: 0.03em;
+  padding-left: 20px;
+}
+.book-site .car-book-wrap ul li {
+  display: flex;
+  margin: auto 0;
+}
+.book-site .car-book-wrap ul li p {
+  margin: auto;
+}
+.book-site .car-book-wrap ul li i {
+  padding-right: 10px;
+}
+.book-site .car-book-wrap ul li i:last-child {
+  padding-right: 0px;
+}
+.book-site .car-book-wrap button {
+  width: 47%;
+  border: 1px solid #7A7363;
+  box-sizing: border-box;
+  background: #ffffff;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #7A7363;
+  letter-spacing: 0.03em;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 12px 0;
+  margin-top: 42px;
 }
