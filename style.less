@@ -143,6 +143,19 @@ nav ul {
             text-transform: uppercase;
             height: 45px;
             margin: 31px 0 28px 0;
+            & a {
+                .font('Roboto', normal, 500, 18px, 21px, @book-btn);
+                letter-spacing: 0.03em;
+                text-transform: uppercase;
+                text-decoration: none;
+            }
+            &:hover {
+                background-color: @book-btn;
+                border: 1px solid @book-btn;
+                & a {
+                    color: @white;
+                }
+            }
         }
         & .book-now-btn {
             width: 100%;
@@ -550,6 +563,105 @@ footer {
                     box-sizing: border-box;
                 }
             }
+        }
+    }
+}
+.card-product-title {
+    width: 89%;
+    margin: auto;
+    & h2 {
+        .font('Open Sans', normal, bold, 38px, 52px, @book-btn);
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        padding-bottom: 30px;
+    }
+}
+.card-product {
+    width: 89%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    & .left {
+        width: 66%;
+        & .left-image {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-row-gap: 20px;
+            grid-column-gap: 20px;
+            position: relative;
+            margin-bottom: 10px;
+            & p {
+                .font('Roboto', normal, normal, 45px, 53px, @white);
+                letter-spacing: 0.05em;
+                position: absolute;
+                right: 10%;
+                bottom: 20%;
+            }
+        }
+        & .left-text {
+            & h3 {
+                padding: 40px 0 20px 0;
+            }
+            & p {
+                .font('Open Sans', normal, normal, 16px, 21px, @main-text);
+                letter-spacing: 0.03em;
+            }
+            & button {
+                width: 18%;
+                background-color: @book-btn;
+                border: none;
+                height: 45px;
+                margin: 50px 0 30px 0;
+                & a {
+                    .font('Roboto', normal, 500, 18px, 21px, @white);
+                    letter-spacing: 0.03em;
+                    text-transform: uppercase;
+                    text-decoration: none;
+                }
+                &:hover {
+                    background-color: @white;
+                    border: 1px solid @book-btn;
+                    & a {
+                        color: @book-btn;
+                    }
+                }
+            }
+        }
+    }    
+    & .right {
+        width: 31%;
+        & h4 {
+            .font('Open Sans', normal, 600, 18px, 25px, @main-text);
+            letter-spacing: 0.06em;
+            padding-bottom: 15px;
+        }
+        & section {
+            display: flex;
+        }
+        & .about-of-tour {
+            & p {
+                .font('Open Sans', normal, bold, 14px, 19px, @main-text);
+                letter-spacing: 0.06em;
+                opacity: 0.8;
+                padding: 10px 0 16px 10px;
+            }
+            & ul {
+                text-align: center;
+                display: flex;
+                justify-content: space-around;
+                font-size: 9px;
+                &  p {
+                    .font('Open Sans', normal, normal, 14px, 19px, @main-text);
+                    padding: 0;
+                }
+            }
+        }
+        & .line::after {
+            content: '';
+            display: block;
+            height: 1px;
+            background: @non-active-btn;
+            margin: 6px 0 10px 0;
         }
     }
 }
