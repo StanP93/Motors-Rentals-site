@@ -844,3 +844,26 @@ footer .footer-wrap li {
   background: #E8E6E6;
   margin: 6px 0 10px 0;
 }
+.gallery {
+  width: 89%;
+  margin: auto;
+}
+.gallery h2 {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 38px;
+  line-height: 52px;
+  color: #414141;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 40px 0;
+}
+.gallery div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.gallery img {
+  margin-bottom: 40px;
+}
