@@ -683,3 +683,24 @@ footer {
         margin-bottom: 40px;
     }
 }
+.contacts {
+    display: flex;
+    justify-content: space-between;
+    height: 500px;
+    & .texted {
+        padding-left: 80px;
+    }
+    & .phone-pre-footer {
+        .font('Open Sans', normal, bold, 38px, 52px, @main-text);
+        letter-spacing: 0.05em;
+        padding: 0 0 20px 0;
+    }
+    & p {
+        .font('Roboto', normal, 500, 25px, 29px, @book-btn);
+        letter-spacing: 0.05em;
+        padding: 60px 0 40px 0;
+    }
+    & .small-text {
+        padding: 10px 0 40px 0;
+    }
+}

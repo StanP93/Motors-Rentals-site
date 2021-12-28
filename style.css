@@ -867,3 +867,34 @@ footer .footer-wrap li {
 .gallery img {
   margin-bottom: 40px;
 }
+.contacts {
+  display: flex;
+  justify-content: space-between;
+  height: 500px;
+}
+.contacts .texted {
+  padding-left: 80px;
+}
+.contacts .phone-pre-footer {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 38px;
+  line-height: 52px;
+  color: #414141;
+  letter-spacing: 0.05em;
+  padding: 0 0 20px 0;
+}
+.contacts p {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 29px;
+  color: #7A7363;
+  letter-spacing: 0.05em;
+  padding: 60px 0 40px 0;
+}
+.contacts .small-text {
+  padding: 10px 0 40px 0;
+}
