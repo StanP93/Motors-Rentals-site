@@ -703,4 +703,55 @@ footer {
     & .small-text {
         padding: 10px 0 40px 0;
     }
+    & .fab {
+        color: @book-btn;
+    }
+}
+.faq {
+    width: 89%;
+    margin: auto;
+    & h2 {
+        .font('Open Sans', normal, bold, 38px, 52px, @main-text);
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        text-align: center;
+        padding: 50px 0 60px 0;
+    }
+    & section {
+        width: 87.5%;
+        margin: auto;
+        position: relative;
+        & h4 {
+            .font('Open Sans', normal, bold, 18px, 25px, @main-text);
+            letter-spacing: 0.06em;
+            padding-bottom: 16px;
+        }
+        & p {
+            .font('Open Sans', normal, normal, 16px, 21px, @main-text);
+            letter-spacing: 0.03em;
+            margin-bottom: 26px;
+        }
+        & img {
+            position: absolute;
+            top: 5%;
+            right: 0%;
+            transform: rotate(180deg);
+            &:hover {
+                cursor: pointer;
+            }
+        }
+        & .faq-text-none {
+            display: none;
+        }
+        & .faq-text-block {
+            display: block;
+        }
+    }
+    & .line::after {
+        content: '';
+        display: block;
+        height: 1px;
+        background: @non-active-btn;
+        margin-bottom: 25px;
+    }
 }

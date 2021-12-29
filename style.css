@@ -898,3 +898,69 @@ footer .footer-wrap li {
 .contacts .small-text {
   padding: 10px 0 40px 0;
 }
+.contacts .fab {
+  color: #7A7363;
+}
+.faq {
+  width: 89%;
+  margin: auto;
+}
+.faq h2 {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 38px;
+  line-height: 52px;
+  color: #414141;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  text-align: center;
+  padding: 50px 0 60px 0;
+}
+.faq section {
+  width: 87.5%;
+  margin: auto;
+  position: relative;
+}
+.faq section h4 {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  color: #414141;
+  letter-spacing: 0.06em;
+  padding-bottom: 16px;
+}
+.faq section p {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 21px;
+  color: #414141;
+  letter-spacing: 0.03em;
+  margin-bottom: 26px;
+}
+.faq section img {
+  position: absolute;
+  top: 5%;
+  right: 0%;
+  transform: rotate(180deg);
+}
+.faq section img:hover {
+  cursor: pointer;
+}
+.faq section .faq-text-none {
+  display: none;
+}
+.faq section .faq-text-block {
+  display: block;
+}
+.faq .line::after {
+  content: '';
+  display: block;
+  height: 1px;
+  background: #E8E6E6;
+  margin-bottom: 25px;
+}
